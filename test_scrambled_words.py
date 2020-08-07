@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Tests the scrambled_words module
 """
