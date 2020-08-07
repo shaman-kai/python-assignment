@@ -24,7 +24,8 @@ In addition, it contains 2 helper functions:
     
 Main and helper functions:
 
-    • The helper function 1 splits text into segments, then main functions 1-4 shuffle letters within them, then helper function 2 assembles scrambled segments back into a single text string.
+    • The helper function 1 splits text into segments, then main functions 1-4 shuffle letters within them, 
+    then helper function 2 assembles scrambled segments back into a single text string.
     • To use main fuctions, helper functions should also be imported, so it is recommended to import the module as a whole.    
     • However, helper functions can also be used independently.
 
