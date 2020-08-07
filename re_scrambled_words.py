@@ -1,18 +1,3 @@
-"""
-This module contains 4 functions to "scramble" a piece of text:
-    • shuffle_middles: to randomly reorder all but the first and last letters of each word.
-    • shuffle_words: to randomly reorder all the letters in each word.
-    • shuffle_short_words: to randomly reorder all letters in words shorter than n letters.
-    • random_upper: to randomly make some letters lowercase and some uppercase.
-
-In addition, it contains 2 helper functions:
-    • shuffled_middle_word: takes a result of patterning consisting of groups (re.Match type) and returns string with shuffled middle.
-    • shuffled_word: takes a result of patterning consisting of groups (re.Match type) and shuffleseach of them.
-
-The helper functions only work on re.Match variables,but can be used independently.
-To use main functions, helper functions need to be imported, so it is recommended to import this module as a whole.
-"""
-
 #%%
 
 import re
