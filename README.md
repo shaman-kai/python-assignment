@@ -17,8 +17,10 @@ This program is a module that contains 4 functions to "scramble" a piece of text
 
 In addition, it contains 2 helper functions:
 
-    • full_split: to split a piece of text into a list of words and groups of punctuation (to make sure punctuation is not "scrambled" and stays in its place).
-    • spaced_text: to assemble a list of words and punctuation back into text (after each word has been "scrambled") with spaces in appropriate positions (e.g. before an opening bracket but after a closing bracket).
+    • full_split: to split a piece of text into a list of words and groups of punctuation 
+    (to make sure punctuation is not "scrambled" and stays in its place).
+    • spaced_text: to assemble a list of words and punctuation back into text (after each word has been "scrambled") 
+    with spaces in appropriate positions (e.g. before an opening bracket but after a closing bracket).
     
 Main and helper functions:
 
