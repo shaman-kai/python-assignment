@@ -38,9 +38,9 @@ MODULE 2 'RE_SCRAMBLED_WORDS.PY'
 
 This module contains 4 main functions to "scramble" a piece of text:
 
-    • shuffle_middles: to randomly reorder all but the first and last letters of each word.
-    • shuffle_words: to randomly reorder all the letters in each word.
-    • shuffle_short_words: to randomly reorder all letters in words shorter than n letters.
+    • shuffle_middles_re: to randomly reorder all but the first and last letters of each word.
+    • shuffle_words_re: to randomly reorder all the letters in each word.
+    • shuffle_short_words_re: to randomly reorder all letters in words shorter than n letters.
     • random_upper: to randomly make some letters lowercase and some uppercase.
 
 In addition, it contains 2 helper functions:
@@ -52,6 +52,6 @@ In addition, it contains 2 helper functions:
    
 Intended usage of main and helper functions:
 
-    • The helper functions only work on re.Match variables,but can be used independently.
+    • The helper functions only work on re.Match variables, but can be used independently.
     • To use main functions, helper functions need to be imported, 
     so it is recommended to import this module as a whole.
