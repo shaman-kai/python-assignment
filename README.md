@@ -8,7 +8,7 @@ _______________________________
 
 MODULE 1 'SCRAMBLED_WORDS.PY'
 
-This program is a module that contains 4 functions to "scramble" a piece of text:
+This program is a module that contains 4 main functions to "scramble" a piece of text:
 
     • shuffle_middles: to randomly reorder all but the first and last letters of each word.
     • shuffle_words: to randomly reorder all the letters in each word.    
@@ -23,7 +23,7 @@ In addition, it contains 2 helper functions:
     (after each word has been "scrambled") with spaces in appropriate positions 
     (e.g. before an opening bracket but after a closing bracket).
     
-Main and helper functions:
+Intended usage of main and helper functions:
 
     • The helper function 1 splits text into segments, then main functions 1-4 shuffle letters within them, 
     then helper function 2 assembles scrambled segments back into a single text string.
@@ -35,7 +35,7 @@ _______________________________
 
 MODULE 2 'RE_SCRAMBLED_WORDS.PY'
 
-This module contains 4 functions to "scramble" a piece of text:
+This module contains 4 main functions to "scramble" a piece of text:
 
     • shuffle_middles: to randomly reorder all but the first and last letters of each word.
     • shuffle_words: to randomly reorder all the letters in each word.
@@ -49,7 +49,7 @@ In addition, it contains 2 helper functions:
     • shuffled_word: takes a result of patterning consisting of groups (re.Match type)
     and shuffles each of them.
    
-Main and helper functions:
+Intended usage of main and helper functions:
 
     • The helper functions only work on re.Match variables,but can be used independently.
     • To use main functions, helper functions need to be imported, 
