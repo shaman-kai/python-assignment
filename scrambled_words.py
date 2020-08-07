@@ -2,7 +2,8 @@
 
 def full_split(text):
     """
-    This function takes a piece of text and splits it into words and punctuation so that hyphens and apostrophs do not split the word, and groups of punctuation marks like "?!" are treated as one entity.
+    This function takes a piece of text and splits it into words and punctuation 
+    so that hyphens and apostrophs do not split the word, and groups of punctuation marks like "?!" are treated as one entity.
         
     INPUT AND OUTPUT:
         In: Takes a single string of any length as an input argument called text.
@@ -67,7 +68,8 @@ def full_split(text):
 
 def spaced_text(word_list):
     """
-    This function takes a list of strings that can contain e.g. words, numbers and (groups of) punctuation marks and assembles it into a text (as a single string) with spaces in appropriate positions (e.g. before an opening bracket but after a closing bracket).
+    This function takes a list of strings that can contain e.g. words, numbers and (groups of) punctuation marks and assembles it into a text (as a single string) 
+    with spaces in appropriate positions (e.g. before an opening bracket but after a closing bracket).
     
     INPUT AND OUTPUT:
         In: Takes a list of strings as an input argument called word_list.
@@ -141,7 +143,8 @@ def shuffle_middles(text):
             result = ''.join(rand_middle)
             end_result = word[0]+result+word[-1]
             randomized_words.append(end_result)
-            # (if necessary, this function can be mofified to shuffle any part of word (e.g. from 3rd to second-to-last letter, or the first/second half of word) by changing numbers in variables 'middle' and 'end_result')
+            # (if necessary, this function can be mofified to shuffle any part of word (e.g. from 3rd to second-to-last letter, or the first/second half of word) 
+            # by changing numbers in variables 'middle' and 'end_result')
     
     # Join scrambled words back into text with punctuation and spaces:
     new_text = spaced_text(randomized_words)
@@ -191,7 +194,8 @@ def shuffle_short_words(text, n):
     This function takes a piece of text and randomly reorders all letters in words that are shorter than a given number of letters.
     
     INPUT AND OUTPUT:
-        In: Takes a single string containing a piece of text as the first input argument called text. Takes a single integer that determines the number of letters as the second input argument n.
+        In: Takes a single string containing a piece of text as the first input argument called text. 
+            Takes a single integer that determines the number of letters as the second input argument n.
         Out: Returns a text as a single string.
     EXAMPLE:
         In : shuffle_short_words("... Didn't you purchase the e-tickets (and actually 2)?!", 7)
