@@ -199,7 +199,7 @@ def shuffle_short_words(text, n):
         Out: Returns a text as a single string.
     EXAMPLE:
         In : shuffle_short_words("... Didn't you purchase the e-tickets (and actually 2)?!", 7)
-        Out: "... dDt'ni oyu purchase the e-tickets (nda actually 2?!)"
+        Out: "... dDt'ni oyu purchase the e-tickets (nda actually 2)?!"
     ERROR: 
         If the first input argument is not a string, raises a TypeError("The input argument should be a piece of text as a string").
     """ 
