@@ -46,9 +46,11 @@ In addition, it contains 2 helper functions:
 
     • shuffled_middle_word: takes a result of patterning consisting of groups (re.Match type) 
     and returns string with shuffled middle.
-    • shuffled_word: takes a result of patterning consisting of groups (re.Match type) and shuffleseach of them.
+    • shuffled_word: takes a result of patterning consisting of groups (re.Match type)
+    and shuffles each of them.
    
 Main and helper functions:
 
     • The helper functions only work on re.Match variables,but can be used independently.
-    • To use main functions, helper functions need to be imported, so it is recommended to import this module as a whole.
+    • To use main functions, helper functions need to be imported, 
+    so it is recommended to import this module as a whole.
