@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Tests the scrambled_words module
+Tests the re_scrambled_words module
 """
 
 import pytest
