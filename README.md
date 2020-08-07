@@ -3,6 +3,7 @@
 This repository contains two modules that achieve the same goal in two different ways.
 Module 1 'scrambled_words.py' is longer, but easier to understandand and modify, because it requires no knowledge of regular expressions operations (re).
 Module 2 're_scrambled_words' is more efficient, but requires knowledge of re to understand and modify.
+Both of these modules have corresponding test modules ('test_scrambled_words.py' and 'test_re_scrambled_words.py').
 
 _______________________________
 
