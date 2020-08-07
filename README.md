@@ -19,14 +19,16 @@ In addition, it contains 2 helper functions:
 
     • full_split: to split a piece of text into a list of words and groups of punctuation 
     (to make sure punctuation is not "scrambled" and stays in its place).
-    • spaced_text: to assemble a list of words and punctuation back into text (after each word has been "scrambled") 
-    with spaces in appropriate positions (e.g. before an opening bracket but after a closing bracket).
+    • spaced_text: to assemble a list of words and punctuation back into text 
+    (after each word has been "scrambled") with spaces in appropriate positions 
+    (e.g. before an opening bracket but after a closing bracket).
     
 Main and helper functions:
 
     • The helper function 1 splits text into segments, then main functions 1-4 shuffle letters within them, 
     then helper function 2 assembles scrambled segments back into a single text string.
-    • To use main fuctions, helper functions should also be imported, so it is recommended to import the module as a whole.    
+    • To use main fuctions, helper functions should also be imported, 
+    so it is recommended to import the module as a whole.    
     • However, helper functions can also be used independently.
 
 _______________________________
@@ -42,7 +44,8 @@ This module contains 4 functions to "scramble" a piece of text:
 
 In addition, it contains 2 helper functions:
 
-    • shuffled_middle_word: takes a result of patterning consisting of groups (re.Match type) and returns string with shuffled middle.
+    • shuffled_middle_word: takes a result of patterning consisting of groups (re.Match type) 
+    and returns string with shuffled middle.
     • shuffled_word: takes a result of patterning consisting of groups (re.Match type) and shuffleseach of them.
    
 Main and helper functions:
