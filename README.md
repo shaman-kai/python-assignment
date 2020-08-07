@@ -1,5 +1,5 @@
 # python-assignment
-"""
+
 This program is a module that contains 4 functions to "scramble" a piece of text:
     • shuffle_middles: to randomly reorder all but the first and last letters of each word.
     • shuffle_words: to randomly reorder all the letters in each word.
@@ -18,4 +18,3 @@ The helper function 1 splits text into segments, then main functions 1-4 shuffle
 To use main fuctions, helper functions should also be imported,
     so it is recommended to import the module as a whole.
 However, helper functions can also be used independently.
-"""
